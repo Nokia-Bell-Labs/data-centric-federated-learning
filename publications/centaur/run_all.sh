@@ -1,0 +1,12 @@
+CUDA_VISIBLE_DEVICES=2,3,5,6,7 python main.py --destine=ap --dataset=cifar10 --encoder=squeezenet
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar10 --encoder=efficientnet --classifier=small 2>&1 | tee log/dyn_dcifar10_eefficientnet_csmall.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=ap --dataset=cifar10 --encoder=efficientnet --classifier=medium 2>&1 | tee log/ap_dcifar10_eefficientnet_cmedium.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar10 --encoder=efficientnet --classifier=medium 2>&1 | tee log/dyn_dcifar10_eefficientnet_cmedium.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=ap --dataset=cifar10 --encoder=efficientnet --classifier=large 2>&1 | tee log/ap_dcifar10_eefficientnet_clarge.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar10 --encoder=efficientnet --classifier=large 2>&1 | tee log/dyn_dcifar10_eefficientnet_clarge.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=ap --dataset=cifar100 --encoder=efficientnet --classifier=small 2>&1 | tee log/ap_dcifar100_eefficientnet_csmall.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar100 --encoder=efficientnet --classifier=small 2>&1 | tee log/dyn_dcifar100_eefficientnet_csmall.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=ap --dataset=cifar100 --encoder=efficientnet --classifier=medium 2>&1 | tee log/ap_dcifar100_eefficientnet_cmedium.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar100 --encoder=efficientnet --classifier=medium 2>&1 | tee log/dyn_dcifar100_eefficientnet_cmedium.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=ap --dataset=cifar100 --encoder=efficientnet --classifier=large 2>&1 | tee log/ap_dcifar100_eefficientnet_clarge.txt
+CUDA_VISIBLE_DEVICES=1,2,3,5,6,7 python main.py --save_results=True --destine=dyn --dataset=cifar100 --encoder=efficientnet --classifier=large 2>&1 | tee log/dyn_dcifar100_eefficientnet_clarge.txt

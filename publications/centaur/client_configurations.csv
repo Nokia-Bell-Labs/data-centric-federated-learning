@@ -1,0 +1,3 @@
+type,frequency(MHz),acceleration,memory(MB),storage(MB),power(mWpMHz),battery_energy(J),uplink(Mbit/s),downlink(Mbit/s),energy_comm(W),timeout(s),coverage_interval(h),coverage_prob
+iot,100,1,inf,5,0.05,inf,2,2,0.0001,inf,1,0.5
+ap,2000,1,inf,4096,1.5,inf,10,100,10,inf,1,1
