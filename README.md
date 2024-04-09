@@ -1,4 +1,4 @@
-### Data-centric Federated Learning
+## Data-centric Federated Learning
 This repository is dedicated to open-sourcing our works in Federated Learning, emphasizing data-centric methodologies.
 
 
