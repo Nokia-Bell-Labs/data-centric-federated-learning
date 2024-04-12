@@ -1,6 +1,6 @@
-# Centaur: federated learning for constrained devices
+# Centaur: Enhancing Efficiency in Multidevice Federated Learning through Data Selection
 
-This is one implementation of a partitioned-based federated learning (FL) framework to support efficient FL training on ultra-constrained edge devices.
+This is one implementation of a partitioned-based federated learning (FL) framework to support efficient FL training on constrained edge devices.
 
 
 ## Structure
